@@ -2,10 +2,10 @@ const desc = document.getElementById('desc');
 const image = document.getElementById('img');
 const timer = document.getElementById('timer');
 
-let count = 60;
+let count = 10;
 
 desc.addEventListener('click', () => {
-  count = 60;
+  count = 10;
 })
 
 const countdown = setInterval(() => {
